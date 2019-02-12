@@ -33,6 +33,7 @@ public class Reprository extends Base {
 		test=  report.startTest((this.getClass().getSimpleName()+"::"+method.getName()));
 		test.assignAuthor("shiva");
 		test.assignCategory("Regression");
+		System.out.println("hello");
 	}
 	public void launch()
 	{
